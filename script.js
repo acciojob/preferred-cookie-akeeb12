@@ -1,6 +1,6 @@
 const fontSizeInput = document.getElementById("fontsize");
 const fontColorInput = document.getElementById("fontcolor");
-const saveButton = document.querySelector("form button");
+const saveButton = document.getElementById("saveButton");
 
 function savePreferences() {
   const fontSize = fontSizeInput.value;
